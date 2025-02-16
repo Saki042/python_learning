@@ -26,3 +26,13 @@ if sorted(str1) == sorted(str2):
     print("Anagrams")
 else:
     print("Nope")
+
+#Program to replace the string space with any given character
+string = "m d m"
+result = '' 
+ch = "a"
+for i in string:  
+        if i == ' ':  
+            i = ch   
+        result += i  
+print(result)
